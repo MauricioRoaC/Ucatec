@@ -108,7 +108,8 @@ server {
  docker-compose up -d
  ```
  ![Logo de Nginx](./images/up.PNG)
-##Paso 3: Crear Tablas en PostgreSQL
+
+## Paso 3: Crear Tablas en PostgreSQL
 ```bash
 docker exec -it postgres_container bash
 ```
@@ -134,7 +135,7 @@ CREATE TABLE productos (
 ![Logo de Nginx](./images/3.PNG)
 
 
-##Paso 4: Crear Colecciones en MongoDB
+## Paso 4: Crear Colecciones en MongoDB
 ```bash
 docker exec -it mongo_container bash
 ```
